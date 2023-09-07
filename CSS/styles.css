@@ -4,13 +4,16 @@ body{
     display: flex;
     align-items: center;
     /* justify-content: center; */
+    background-color: rgb(244, 239, 239);
 }
 
 .card{
     width: 300px;
     height: 400px;
-    border: 3px solid;
-    border-color: ;
+    border: 5px solid;
+    border-color:white;
+    border-radius: 3%;
+    background-color: rgb(255, 248, 240);
     display: flex;
     flex-direction:column;
     justify-content: space-between;
@@ -22,10 +25,15 @@ body{
     flex-direction: column;
     align-items: center;
     margin: 10px;
+    font-size: 2rem;
 }
 
 .top{
     align-self: flex-start;
+}
+
+.mid{
+    font-size: 3rem;
 }
 
 .bottom{
